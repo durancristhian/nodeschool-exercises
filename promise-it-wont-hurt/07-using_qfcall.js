@@ -1,7 +1,7 @@
 var q = require("q");
 var data = process.argv[2];
 
-function parsePromised () {
+function parsePromised (data) {
 
 	var def = q.defer();
 	var result;
@@ -18,5 +18,5 @@ function parsePromised () {
 	return def.promise;
 }
 
-parsePromised(data)
+q.fcall(parsePromised(data))
 .then(null, console.log);
