@@ -9,12 +9,12 @@ function parsePromised () {
 	try {
 
 		result = JSON.parse(data);
+		def.resolve(result);
 	} catch (e) {
 
 		def.reject(e);
 	}
 
-	def.resolve(result);
 	return def.promise;
 }
 
