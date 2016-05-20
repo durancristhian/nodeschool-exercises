@@ -3,7 +3,7 @@
 //    set motors to 2
 // -> Create an instance of Robot called 'robby'
 function Robot () {
-	this.motors = 2;
+  this.motors = 2;
 };
 
 var robby = new Robot();
@@ -17,6 +17,6 @@ claim(robby.motors, 2);
 // ------------------------------------------------
 // Common JS exports for verification, don't modify
 module.exports = {
-	Robot:  Robot,
-	robby:  robby
+  Robot:  Robot,
+  robby:  robby
 }

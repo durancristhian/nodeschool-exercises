@@ -1,6 +1,6 @@
 // -> Define a 'Robot' function constructor
 // -> Create two instances of Robot: 'robby' and 'cranky'
-// -> Both robby and cranky should respond to 'parts' and 'capabilities', these 
+// -> Both robby and cranky should respond to 'parts' and 'capabilities', these
 //    should be empty arrays at first
 function Robot () {
 	this.parts = [];
@@ -21,8 +21,8 @@ claim(robby.capabilities, []);
 claim(cranky.capabilities, []);
 
 // -> Add 'core' to robby.parts, cranky.parts should still be empty
-// -> Add 'fly' to robby.capabilities, after doing that cranky.capabilities must 
-//    also have 'fly' without adding to it directly, so this property has to be 
+// -> Add 'fly' to robby.capabilities, after doing that cranky.capabilities must
+//    also have 'fly' without adding to it directly, so this property has to be
 //    shared
 robby.parts.push("core");
 robby.capabilities.push("fly");

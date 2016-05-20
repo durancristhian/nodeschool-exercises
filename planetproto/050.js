@@ -1,11 +1,11 @@
 // -> Create three objects: 'machine', 'robot' and 'vehicle'
-// -> In the definition of machine set a property 'parts', set it to an 
+// -> In the definition of machine set a property 'parts', set it to an
 //    empty array `[]`
-// -> In the definition of machine set a property 'capabilities', set it to 
+// -> In the definition of machine set a property 'capabilities', set it to
 //    an empty object `{}`
 var machine = {
-	capabilities: {},
-	parts: []
+  capabilities: {},
+  parts: []
 };
 var robot = {};
 var vehicle = {};
@@ -44,11 +44,10 @@ claim(robot.capabilities, {fly: true});
 // -> What is `vehicle.capabilities` now?
 claim(vehicle.capabilities, {fly: true});
 
-
 // ------------------------------------------------
 // Common JS exports for verification, don't modify
 module.exports = {
-	machine: machine,
-	vehicle:    vehicle,
-	robot:    robot
+  machine: machine,
+  vehicle:    vehicle,
+  robot:    robot
 }

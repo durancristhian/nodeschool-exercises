@@ -1,7 +1,7 @@
 // -> Define three objects: 'machine', 'robot' and 'vehicle'
 //    In the definition of machine add a property 'motors' set to null.
 var machine = {
-	motors: null
+  motors: null
 };
 var robot = {};
 var vehicle = {};
@@ -23,11 +23,10 @@ claim(machine.motors, null);
 claim(robot.motors, 4);
 claim(vehicle.motors, null);
 
-
 // ------------------------------------------------
 // Common JS exports for verification, don't modify
 module.exports = {
-	machine:  machine,
-	vehicle:  vehicle,
-	robot:    robot
+  machine:  machine,
+  vehicle:  vehicle,
+  robot:    robot
 }
