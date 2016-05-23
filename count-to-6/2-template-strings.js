@@ -1,5 +1,5 @@
-var name = process.argv[2];
-var text = (
+const name = process.argv[2];
+const text = (
 `Hello, ${name}!
 Your name lowercased is "${name.toLowerCase()}".`
 );
